@@ -13,3 +13,4 @@ const explorer = {
   console.log(explorer)
   console.log("Accediendo a las propiedades del objeto") // ingresará a donde se refiere
   console.log(explorer.name)
+  console.log(explorer["mission"])
