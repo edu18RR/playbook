@@ -14,3 +14,19 @@ const explorer = {
   console.log("Accediendo a las propiedades del objeto") // ingresará a donde se refiere
   console.log(explorer.name)
   console.log(explorer["mission"])
+
+  console.log("Ejemplo3; objeto con métodos")
+  const ajolonauta = {
+    name: "Woopa",
+    mission: "Node JS",
+    sayHelloToExplorer: function () { //definición de la propiedad
+      console.log("Soy el ajolonauta, qué ondaaaa!")
+    },
+    tellMeMore: function(){
+      console.log(`Ajolonauta: ${this.name}`)
+    }
+   }
+   console.log("Ajolonauta: ")
+   console.log(ajolonauta)
+   ajolonauta.sayHelloToExplorer()
+   ajolonauta.tellMeMore()
