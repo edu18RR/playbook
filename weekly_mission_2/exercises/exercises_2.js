@@ -1,8 +1,4 @@
-console.log("exaple 1")
-const names = ["edu", "Vero", "Nahum", "Emma"];
-console.log(names)
 //* ejercicio 2
-
 const explorers = [
     {
       name: "Explorer 1",
