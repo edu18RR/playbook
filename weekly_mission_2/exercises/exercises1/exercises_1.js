@@ -2,10 +2,10 @@ const repo = {
     name: "LaunchX",
     author: "Edu Rosas",
     language: "JavaScript",
-    numberOfCommits: 100,
-    stars: 199,
-    forks: 299,
-    issues_open: 10,
+    numberOfCommits: 51,
+    stars: 9,
+    forks: 5,
+    issues_open: 2,
     issues_close: 10,
     getTotalIssues: function(){
       return this.issues_open + this.issues_close
