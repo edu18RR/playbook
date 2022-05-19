@@ -25,4 +25,5 @@ console.log(woopy)
 
 console.log(woopa_obj_js) // imprimer nombre de la clase e instanseado
 
-// todo el proyecto sirve para abstraer y empezar a modelar
+// todo el proyecto sirve para abstraer y empezar a modelar 
+// se conoce como azucar sintatica.
