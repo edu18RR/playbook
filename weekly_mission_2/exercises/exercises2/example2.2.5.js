@@ -1,4 +1,4 @@
-//4. Agregar el constructor
+//6.
 console.log("POO")
 
 const woopa_obj = {
@@ -7,7 +7,7 @@ const woopa_obj = {
     age: "18",
     color: "Pink"
 }
-//this.seguido de la propiedad del objeto (constructor)
+//delimitar información
 class Ajolonauta {
     constructor (name,mission, age, color){
         this.name = name
@@ -15,14 +15,29 @@ class Ajolonauta {
         this.age = age
         this.color = color
         }
-    }
 
-    //objeto de JS
+        sayHello () {
+            return `${this.name} is saying Hello` //propiedades internas del objeto
+        }
+    }
+//otro ejemplo de class
+
+class Pokemon {
+    constructor (name){
+        this.name = name
+    }
+}
+const Pikachu = new Pokemon ("Pikachu")
+console.log(Pikachu)    
+
+//objeto de JS
+
 const woopa_obj_js = {}
 console.log(woopa_obj_js)
 
 const woopa = new Ajolonauta ("woopa" , "Node Js", "18", "pink") //los nombres que se le solicite
 console.log(woopa)
+console.log(woopa.sayHello())
 
 const wooper = new Ajolonauta ("wooper" , "Java", "10", "Blue") //los nombres que se le solicite
-console.log(wooper)
+console.log(wooper.sayHello)
