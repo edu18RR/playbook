@@ -1,3 +1,4 @@
+//Instanciar varios objetos
 console.log("POO")
 
 const woopa_obj = {
