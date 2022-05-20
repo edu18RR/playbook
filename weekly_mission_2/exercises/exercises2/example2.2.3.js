@@ -1,4 +1,4 @@
-//4. Agregar el constructor
+//4. Agregar el constructor para guardar atributos
 console.log("POO")
 
 const woopa_obj = {
