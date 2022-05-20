@@ -1,3 +1,4 @@
+//1. Crear una clase
 console.log("POO")
 
 // OBJETO de JS
@@ -8,7 +9,7 @@ const woopa = {
     color: "Pink"
 }
 
-//Crear clase (es el molde)
+//1.Crear clase (es el molde)
 class Ajolonauta//obejeto de woopa
  {
 
