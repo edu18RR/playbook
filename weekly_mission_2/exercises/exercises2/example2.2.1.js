@@ -1,3 +1,4 @@
+//2. Como instanciar un objeto
 console.log("POO")
 
 const woopa_obj = {
