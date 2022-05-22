@@ -4,12 +4,16 @@
   "description": "live 1 semana 3",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "edu18RR"
   },
   "author": "Eduardo Rosas",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^28.1.0"
+  }
 }
