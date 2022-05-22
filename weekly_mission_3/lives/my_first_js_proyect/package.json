@@ -1,0 +1,15 @@
+{
+  "name": "my_first_js_proyect",
+  "version": "1.0.0",
+  "description": "live 1 semana 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "edu18RR"
+  },
+  "author": "Eduardo Rosas",
+  "license": "ISC"
+}
